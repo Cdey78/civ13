@@ -252,6 +252,7 @@
 #include "code\game\objects\map_metadata\bohemia.dm"
 #include "code\game\objects\map_metadata\camp.dm"
 #include "code\game\objects\map_metadata\chad_jungle.dm"
+#include "code\game\objects\map_metadata\city_siege.dm"
 #include "code\game\objects\map_metadata\civilizations.dm"
 #include "code\game\objects\map_metadata\colony.dm"
 #include "code\game\objects\map_metadata\compound.dm"
@@ -955,5 +956,5 @@
 #include "code\processes\zoom\zoom_scopes.dm"
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
-#include "maps\nomads\nomads_europe.dmm"
+#include "maps\special\gov_bunker_wasteland.dmm"
 // END_INCLUDE

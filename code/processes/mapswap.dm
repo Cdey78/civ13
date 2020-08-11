@@ -116,7 +116,7 @@
 				MAP_HOSTAGES = 0,
 				MAP_ARAB_TOWN = 0,
 				MAP_ARAB_TOWN_2 = 0,
-//				MAP_WASTELAND = 0,
+				MAP_WASTELAND = 0,
 			)
 		else if (epoch == "Cold War Era (1949-1984)")
 	// 1969 - TDM
@@ -132,10 +132,10 @@
 				MAP_KHALKHYN_GOL = 0,
 				MAP_OMAHA = 10,
 				MAP_KURSK = 10,
-//				MAP_GULAG13 = 15,
+				MAP_GULAG13 = 15,
 				MAP_STALINGRAD = 20,
 				MAP_NANJING = 20,
-//				MAP_IWO_JIMA = 70,
+				MAP_IWO_JIMA = 70,
 				MAP_RIZAL_STADIUM = 0,
 				MAP_INTRAMUROS = 25,
 			)
@@ -161,8 +161,8 @@
 				MAP_CURSED_ISLAND = 0,
 				MAP_NAVAL = 0,
 				MAP_ISLAND = 0,
-		//		MAP_VOYAGE = 10,
-		//		MAP_SUPPLY_RAID = 8,
+				MAP_VOYAGE = 10,
+				MAP_SUPPLY_RAID = 8,
 				MAP_RECIFE = 10,
 				MAP_FIELDS = 10,
 				MAP_ROBUSTA = 15,
@@ -196,7 +196,7 @@
 			)
 		else if (epoch == "Civilization 13 (Nomads)")
 			maps = list(
-//				MAP_CIVILIZATIONS = 0,
+				MAP_CIVILIZATIONS = 0,
 				MAP_NOMADS = 0,
 				MAP_NOMADS_DESERT = 0,
 				MAP_NOMADS_ICE_AGE = 0,

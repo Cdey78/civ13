@@ -598,20 +598,6 @@
 	create_path = /obj/structure/wild/jungle/medpine
 	timer = 6000
 
-/obj/effect/spawner/objspawner/mines
-	name = "AP mine spawner"
-	icon_state = "x1"
-	max_number = 8
-	max_range = 24
-	create_path = /obj/item/mine/ap/armed
-	timer = -1
-
-/obj/effect/spawner/objspawner/mines/at
-	name = "AT mine spawner"
-	icon_state = "x1"
-	max_number = 4
-	max_range = 6
-	create_path = /obj/item/mine/at/armed
 
 //ore spanwers for extended games
 /obj/effect/spawner/orespawner

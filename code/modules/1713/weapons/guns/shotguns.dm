@@ -180,7 +180,7 @@
 
 
 /obj/item/weapon/gun/projectile/shotgun/remington870
-	name = "Remington 870 Express"
+	name = "Remington 870"
 	desc = "A pump-action shotgun with a 3in 12 gauge chamber."
 	icon_state = "remington870"
 	item_state = "shotgun"

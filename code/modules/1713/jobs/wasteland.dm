@@ -26,7 +26,7 @@
 	var/obj/item/clothing/accessory/holster/hip/holsterh = new /obj/item/clothing/accessory/holster/hip(null)
 	uniform.attackby(holsterh, H)
 
-	H.add_note("Role", "You are a <b>[title]</b>. You are in charge of the bunker, and have orders to keep it on lockdown at all times. A nuclear strike is soon to hit! Organize your troops accordingly!")
+	H.add_note("Role", "You are a <b>[title]</b>. You are in charge of the bunker. A tactical nuclear strike to purify the area of infection has been authorized, and may happen within a few hours. A warning will be sent ahead of time. Organize your troops!")
 	H.setStat("strength", STAT_NORMAL)
 	H.setStat("crafting", STAT_VERY_HIGH)
 	H.setStat("rifle", STAT_VERY_HIGH)
@@ -188,7 +188,7 @@
 			H.equip_to_slot_or_del(new /obj/item/clothing/mask/shemagh/redkerchief(H), slot_wear_mask)
 
 //belt
-	var/randweap = rand(1,5)
+	var/randweap = rand(1,8)
 	if (randweap == 1)
 		H.equip_to_slot_or_del(new /obj/item/weapon/material/hatchet(H), slot_belt)
 	else if (randweap == 2)
@@ -199,6 +199,12 @@
 		H.equip_to_slot_or_del(new /obj/item/weapon/material/machete(H), slot_belt)
 	else if (randweap == 5)
 		H.equip_to_slot_or_del(new /obj/item/weapon/shovel/spade/foldable(H), slot_belt)
+	else if (randweap == 6)
+		H.equip_to_slot_or_del(new /obj/item/weapon/gun/projectile/revolver/makeshift(H), slot_belt)
+	else if (randweap == 7)
+		H.equip_to_slot_or_del(new /obj/item/weapon/radio/walkietalkie(H), slot_belt)
+	else if (randweap == 8)
+		H.equip_to_slot_or_del(new /obj/item/weapon/storage/belt/leather(H), slot_belt)
 
 	H.add_note("Role", "You are a <b>[title]</b>, held up in New Manchester. You've heard the news, and dedicated yourself to search for that mythical bunker!")
 	H.setStat("strength", STAT_NORMAL)

@@ -558,7 +558,7 @@
 	return mob_overlay
 
 /obj/item/clothing/accessory/armor/coldwar/flakjacket
-	name = "M-1952 Flak Jacket"
+	name = "M52 Flak Jacket"
 	desc = "Wearable armor meant to protect against shrapnel and light hits. Won't do much against large caliber weapons."
 	icon_state = "flakjacket"
 	item_state = "flakjacket"
@@ -569,7 +569,7 @@
 	slowdown = 0.2
 
 /obj/item/clothing/accessory/armor/coldwar/flakjacket/m1969
-	name = "M-1969 Flak Jacket"
+	name = "M69 Flak Jacket"
 	desc = "Wearable armor with neck protection meant to protect against shrapnel and light hits. Won't do much against large caliber weapons."
 	icon_state = "flakjacket1969"
 	item_state = "flakjacket1969"

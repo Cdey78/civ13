@@ -142,12 +142,18 @@
 		..()
 		icon = 'icons/obj/cannon_ball.dmi'
 		icon_state = "shell_nuclear"
+
 /obj/item/cannon_ball/mortar_shell
 	icon = 'icons/obj/cannon_ball.dmi'
 	name = "mortar shell"
 	icon_state = "shell_mortar"
 	w_class = 4.0
 	value = 20
+
+/obj/item/cannon_ball/mortar_shell/white_phosphorus
+	reagent_payload = "white_phosphorus_gas"
+	name = "White Phosphorus mortar shell"
+	icon_state = "shell_mortar_wp"//temp
 
 /obj/item/cannon_ball/shell/gas/chlorine
 	reagent_payload = "chlorine_gas"

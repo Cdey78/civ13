@@ -304,6 +304,51 @@
 		/obj/item/weapon/reagent_containers/food/snacks/MRE/generic/american = 50,
 	)
 
+/obj/structure/vending/usa_apparel_nam
+	name = "US Army apparel rack"
+	desc = "Basic wear for soldiers of the US Army."
+	icon_state = "apparel_usa"
+	products = list(
+		/obj/item/clothing/shoes/jackboots = 15,
+		/obj/item/clothing/under/us_uni/us_lightuni = 15,
+		/obj/item/clothing/under/us_uni/us_lightuni2 = 15,
+		/obj/item/clothing/under/us_uni/us_greentrousers = 15,
+		/obj/item/clothing/under/us_uni/us_tigerstripes = 15,
+		/obj/item/clothing/under/us_uni = 15,
+		/obj/item/clothing/head/helmet/korean/usgreennet = 5,
+		/obj/item/clothing/head/helmet/korean/ustannet = 5,
+		/obj/item/clothing/head/helmet/korean/usm1 = 15,
+		/obj/item/clothing/accessory/armor/coldwar/flakjacket/m1969 = 25,
+		/obj/item/weapon/storage/belt/largepouches/green = 15,
+		/obj/item/weapon/storage/ammo_can = 2,
+		/obj/item/stack/medical/bruise_pack/bint = 10,
+		/obj/item/weapon/shovel/trench = 10,
+		/obj/item/weapon/reagent_containers/food/drinks/bottle/canteen/full = 30,
+		/obj/item/weapon/reagent_containers/food/snacks/MRE/generic/american = 50,
+	)
+
+/obj/structure/vending/usa_equipment_nam
+	name = "US Army equipment rack"
+	desc = "Basic gear for soldiers of the US Army."
+	icon_state = "equipment_usa"
+	products = list(
+		/obj/item/weapon/gun/projectile/submachinegun/m16 = 12,
+		/obj/item/weapon/gun/projectile/pistol/m1911 = 24,
+		/obj/item/weapon/gun/projectile/submachinegun/m14/sniper = 2,
+		/obj/item/weapon/gun/projectile/shotgun/remington870 = 2,
+		/obj/item/weapon/gun/projectile/automatic/m60 = 1,
+		/obj/item/ammo_magazine/m16 = 32,
+		/obj/item/ammo_magazine/m1911 = 62,
+		/obj/item/ammo_magazine/m14 = 16,
+		/obj/item/ammo_magazine/shellbox = 4,
+		/obj/item/ammo_magazine/shellbox/slug = 2,
+		/obj/item/ammo_magazine/b762 = 2,
+		/obj/item/weapon/grenade/ww2/mk2 = 6,
+		/obj/item/weapon/grenade/coldwar/m26 = 12,
+		/obj/item/weapon/grenade/coldwar/m67 = 24,
+		/obj/item/weapon/grenade/chemical/white_phosphorus/m34 = 8,
+	)
+
 /obj/structure/vending/usa_equipment_ww2
 	name = "US Army equipment rack"
 	desc = "Basic gear for soldiers of the US Army."
@@ -316,6 +361,7 @@
 		/obj/item/ammo_magazine/thompson = 15,
 		/obj/item/ammo_magazine/m1911 = 10,
 	)
+
 
 /obj/structure/vending/japaneseapparel_ww2
 	name = "Imperial Japanese Army apparel rack"

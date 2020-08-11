@@ -118,6 +118,9 @@ obj/item/weapon/gun/projectile/automatic/stationary/modern/maxim/ww2
 		)
 	ammo_type = /obj/item/ammo_casing/a762x54/weak
 
+/obj/item/weapon/gun/projectile/automatic/stationary/modern/pkm/old //simple rename
+	name = "PK machine gun"
+
 /obj/item/weapon/gun/projectile/automatic/stationary/modern/vickers
 	name = "Vickers machine gun"
 	desc = "A water-cooled heavy machinegun, using .303 british rounds."

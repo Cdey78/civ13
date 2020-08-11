@@ -151,7 +151,7 @@
 	age = "2018"
 	faction_distribution_coeffs = list(AMERICAN = 2, CIVILIAN = 0.5)
 	battle_name = "battle of the bunker"
-	mission_start_message = "<big>A virus... or something, has taken over the city. The government is about to drop the big one in about five minutes, if they haven't already. However, you've heard rumors of a Government bunker nearby - could that be salvation?</big>"
+	mission_start_message = "<big>You're just some unlucky bastard stuck in a post-apocalyptic location. You don't even know when or if you'll eat again. - However, you've heard rumors of a Government bunker nearby - could that be salvation?</big>"
 	faction1 = AMERICAN
 	faction2 = CIVILIAN
 	valid_weather_types = list(WEATHER_WET, WEATHER_NONE, WEATHER_EXTREME)
@@ -166,7 +166,7 @@
 	..()
 	spawn(18000)
 		seasons()
-		var/randtimer = rand(3000,9000)
+		var/randtimer = rand(216000,432000)//temp increase to six/twelve hours for the random timer, to 'disable' nukes.
 		if (!nonukes)
 			nuke_proc(randtimer)
 			supplydrop_proc()

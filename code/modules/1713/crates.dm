@@ -540,6 +540,10 @@ obj/structure/closet/crate/ww2/atmines
 	name = "anti-tank mines crate"
 	paths = list(/obj/item/mine/at = 5)
 
+obj/structure/closet/crate/ww2/apmines
+	name = "anti-personnel mines crate"
+	paths = list(/obj/item/mine/ap = 5)
+
 obj/structure/closet/crate/ww2/rpg40
 	name = "RPG-40 AT grenade crate"
 	paths = list(/obj/item/weapon/grenade/antitank/rpg40 = 6)
@@ -587,6 +591,18 @@ obj/structure/closet/crate/coldwar/m26
 obj/structure/closet/crate/ww2/artillery_shells
 	name = "HE artillery shells"
 	paths = list(/obj/item/cannon_ball/shell = 10)
+
+obj/structure/closet/crate/ww2/artillery_shells/wp
+	name = "WP artillery shells"
+	paths = list(/obj/item/cannon_ball/shell/gas/white_phosphorus = 10)
+
+obj/structure/closet/crate/ww2/artillery_shells/mortar
+	name = "mortar shells"
+	paths = list(/obj/item/cannon_ball/mortar_shell = 10)
+
+obj/structure/closet/crate/ww2/artillery_shells/mortar/wp
+	name = "WP mortar shells"
+	paths = list(/obj/item/cannon_ball/mortar_shell/white_phosphorus = 10)
 
 obj/structure/closet/crate/ww2/artillery_shells/HE57
 	name = "57 mm HE shells crate"
