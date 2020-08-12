@@ -1,5 +1,5 @@
 /obj/item/weapon/flamethrower
-	name = "M2 Flamethrower hoose"
+	name = "M2 Flamethrower hose"
 	desc = "Use with a flamethrower fuel tank to set your enemies on fire."
 	icon = 'icons/obj/guns/gun.dmi'
 	icon_state = "m2_flamethrower"

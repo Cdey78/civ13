@@ -437,7 +437,7 @@ mob/living/human/corpse/russian_soviet_tanker
 		job_master.EquipRank(src, "Bandit")
 		dir = pick(NORTH,SOUTH,EAST,WEST)
 		adjustBruteLoss(rand(30,45))
-		name = "pmc"
+		name = "PMC"
 		invisibility = 0
 		spawn (50) // must be here or they won't spawn, it seems - Kachnov
 			death()
